@@ -1,0 +1,27 @@
+.row{
+    height: 100%;
+}
+.custom-list{
+    list-style: none;
+    margin-left: 8%;
+}
+#Quiz{
+    display: none;
+}
+#Contact{
+    display: none;
+}
+.check{
+    margin-right: 5%;
+    left: 50%;
+}
+.radio{
+    margin-right: 3%;
+}
+.navbar{
+    color: white;
+    margin-bottom: 2%;
+}
+.Timer{
+    float: right;
+}

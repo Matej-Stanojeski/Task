@@ -1,0 +1,145 @@
+<html>
+
+<head>
+    <title>Exams</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="navbar">
+        ID: 4636
+    </div>
+    </nav>
+    <div class="container">
+
+        <div class="row">
+            <div class="col-2">
+                <ul>
+                    <li>
+                        <button id="HomeBtn">HOME</button>
+                    </li>
+                    <li>
+                        <button id="QuizBtn">QUIZ</button>
+                    </li>
+                    <li>
+                        <button id="ContactBtn">CONTACT</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10">
+                <div id="Home">
+                    <h1>Lorem ipsum dolor</h1>
+                    <h3>Sit amet in non at laoreet</h3>
+                    <p>Vel pulvinar dapibus condimentum in proin. Varius erat sed. Curabitur sit eget integer convallis
+                        tenetur turpis in ac vivamus quae luctus. Auctor semper quam.
+                        <strong>Ornare magna faucibus vel phasellus</strong> vel placerat penatibus egestas vel nulla
+                        vitae. Curabitur malesuada nam sed facilisis amet.
+                    </p>
+                    <p>viverra tortor® elit curabitur natoque. Ut sed amet</p><br>
+                    <h3>Est donec congue</h3>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul><br>
+                    <h3>Hendrerit rhoncus pellentesque</h3>
+                    <p>Vestibulum integer condimentum.</p>
+
+                    <ul id="second-list">
+                        Item 1
+                        <li class="custom-list">Item 1.1</li>
+                        <li class="custom-list">Item 1.1</li>
+                        Item 2
+                        <li class="custom-list">Item 2.1</li>
+                        <li class="custom-list">Item 2.1</li>
+                        Item 3
+                        <li class="custom-list">Item 3.1</li>
+                        <li class="custom-list">Item 3.1</li>
+                    </ul><br>
+                    <h3>Aliquet fames sed</h3>
+                    <p><strong>Mauris hendrerit lobortis elit et eu in pulvinar nec. <i>Diam id vel</i></strong>
+                        Vestibulum volutpat tellus diam nullam hac.
+                        Placerat consectetuer lacus condimentum nibh a.
+                        Pellentesque ac integer maecenas in ac.
+                        Sit risus duis. Sed non suspendisse.
+                        Ante vehicula suspendisse.
+                        Nec quis eget vivamus proin at odio metus magna morbi justo sem euismod egestas amet venenatis
+                        ut est.</p>
+                </div>
+                <div id="Quiz">
+                    <div class="form-group">
+
+                        <div id="stopWatch">0</div>
+                        <label for="NameAndId">Your Name and ID</label>
+                        <textarea type="text" id="NameAndId" name="NameAndId" class="form-control"></textarea><br>
+
+                        <p>Inside which HTML element do we put the JavaScript</p>
+                        
+                        <label class="form-check-label radio" for="Scripting">&lt;scripting&gt;</label>
+                        <input id="Scripting" class="form-check-input" type="radio" name="radio" value="scripting"><br>
+
+                        <label class="form-check-label radio" for="Js">&lt;js&gt;</label>
+                        <input id="Js" class="form-check-input" type="radio" name="radio" value="js"><br>
+
+                        <label class="form-check-label radio" for="Javascript">&lt;javascript&gt;</label>
+                        <input id="Javascript" class="form-check-input" type="radio" name="radio" value="javascript"><br>
+
+                        <label class="form-check-label radio" for="Script">&lt;script&gt;</label>
+                        <input id="Script" class="form-check-input" type="radio" name="radio" value="script"><br>
+
+
+                        <p>The external JavaScript file must contain the &lt;script&gt; tag</p>
+                        <label class="form-check-label check" for="True">True</label>
+                        <input id="True" value="True" class="form-check-input" type="checkbox"><br>
+
+                        <label class="form-check-label check" for="False">False</label>
+                        <input id="False" value="False" class="form-check-input" type="checkbox"><br>
+
+                        <label class="form-check-label check" for="None">None</label>
+                        <input id="None" value="None" class="form-check-input" type="checkbox"><br>
+
+                        <label class="form-check-label check" for="Both">Both</label>
+                        <input id="Both" value="Both" class="form-check-input" type="checkbox"><br>
+
+                        <label for="Select">How do you write "Hello World" in an alert box?</label><br>
+                        <select id="Select" class="form-select">
+                            <option selected>Choose an answer</option>
+                            <option value="alert">Alert(“Hello World”);</option>
+                            <option value="alertbox">alertBox(“Hello World”);</option>
+                            <option value="msg">msg(“Hello World”);</option>
+                            <option value="msgBoxl">msgBoxl(“Hello World”);</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="Contact">
+                    <form id="Form">
+                        <p>Create new contact:</p>
+                        <label for="Surname">Surname</label>
+                        <input type="text" id="Surname" name="Surname" class="form-control" required minlength="10">
+
+                        <label for="Name">Name</label>
+                        <input type="text" id="Name" name="Name" class="form-control" required>
+
+                        <label for="StudentId">Student Id</label>
+                        <input type="number" id="StudentId" name="StudentId" class="form-control">
+
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" id="e-mail" name="e-mail" class="form-control">
+
+                        <label for="Note">Note</label>
+                        <textarea type="text" id="Note" name="Note" class="form-control" maxlength="256"></textarea>
+                    </form>
+                    <button type="submit" id="SubmitBtn" class="btn btn-default">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
